@@ -7,6 +7,6 @@ setup(
     author="Erik Meijer",
     author_email="erik@datadepartment.io",
     url="https://www.datadepartment.io",
-    py_modules=["u_serper"],
+    packages=["u_serper"],
     install_requires=["aiohttp", "pydantic", "tenacity"],
 )
